@@ -17,7 +17,7 @@ const getStarWars = async () => {
     const data = await response.json()
     
     starwarsCard.innerHTML = `
-      <p>Character name: ${data.name}</p>
+      <p>Character name: PLACEHOLDER</p>
     `
   } catch (error) {
     starwarsCard.innerHTML = `
